@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root
+{
+--main-color :#31ef74;
+}
+
+.theme-text {
+    color: var(--main-color);
+}
+
+.navbar-brand
+{
+    color: var(--main-color) !important;
+}
+.act{
+
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.navbar ul li a:hover{
+    color: var(--main-color) !important;
+    border-bottom: 1px solid var(--main-color);
+
+}
+
+.header{
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("scr/Custom\ Built\ Homes.webp");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.waves{
+    position: absolute;
+    bottom: 2px;
+}
+
+.middle{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.middle h1{
+    font-size: 60px;
+    
+}
